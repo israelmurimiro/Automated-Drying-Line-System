@@ -1,18 +1,4 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2868
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 # ADLS \'96 Automated Drying Line System\
-\
-An IoT-based Automated Drying Line System (ADLS) built on ESP32, integrating environmental sensing, servo-based mechanical actuation, LCD status display, and real-time cloud monitoring via Blynk.\
-\
-The system automatically extends or retracts a drying line based on sunlight and rain conditions, with manual override and dashboard synchronization.\
-\
----\
-\
 ## System Overview\
 \
 The ADLS operates as a finite-state machine controlling a servo-driven drying line:\
