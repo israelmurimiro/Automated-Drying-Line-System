@@ -1,3 +1,5 @@
+---
+
 # ADLS: Automated Drying Line System
 
 The **Automated Drying Line System (ADLS)** is an IoT-enabled, servo-driven laundry drying solution. It functions as a finite-state machine that responds to environmental conditions (sunlight and rain) while providing manual overrides via physical buttons and a Blynk dashboard.
@@ -10,6 +12,8 @@ The **Automated Drying Line System (ADLS)** is an IoT-enabled, servo-driven laun
 * **Fail-Safe Design:** High-priority rain detection triggers immediate retraction to protect laundry.
 * **Cloud Integration:** Real-time monitoring and remote control via the **Blynk IoT** platform.
 * **Visual Feedback:** Dedicated LED indicators and an LCD display for at-a-glance status updates.
+
+**📹 Project Demo Video:** [Watch the ADLS in action on LinkedIn](https://www.linkedin.com/posts/israel-murimiro-41646a286_iot-embeddedsystems-esp32-activity-7431862936551383040-Vt_7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEV6u9IB31RgOPnDQxf6f_rhpDpxiJtxvBU)
 
 ---
 
@@ -56,3 +60,6 @@ stateDiagram-v2
     EXTENDED --> RETRACTING : Rain or Dark
     RETRACTING --> RETRACTED
     RETRACTED --> RETRACTED : Rain
+```
+
+---
